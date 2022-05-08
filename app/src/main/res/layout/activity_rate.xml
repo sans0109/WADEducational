@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.extras.RateActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/ll_abc"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/homebg" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Review Us"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:text="Write review for us"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="on your favourite platform"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="-30dp"
+        android:padding="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="center"
+        android:layout_below="@id/main_ll"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/googlell"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/card_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:padding="15dp"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:src="@drawable/google" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/facebookll"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/card_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:padding="15dp"
+                android:src="@drawable/facebook" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/edall"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/card_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:padding="5dp"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:src="@drawable/edalogo" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

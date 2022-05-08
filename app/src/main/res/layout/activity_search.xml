@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.extras.PrivacyPolicy">
+
+    <RelativeLayout
+        android:id="@+id/noInternet"
+        android:visibility="gone"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/no_internet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="OOPS!!"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/darkBlue"
+                android:gravity="center"
+                android:layout_below="@id/noInternet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="No Internet Connection"
+                android:textSize="20dp"
+                android:textColor="@color/darkBlue"
+                android:gravity="center"
+                android:layout_below="@id/noInternet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="Please check your connection or try to restart app"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="20dp"
+                android:textColor="@color/darkBlue"
+                android:gravity="center"
+                android:layout_below="@id/noInternet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_abc"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/homebg">
+
+        <LinearLayout
+            android:id="@+id/titlebar"
+            android:layout_marginTop="15dp"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:text="Search Course"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:layout_gravity="end"
+                android:layout_marginEnd="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/backicon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_home_24" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/titlebar"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_marginHorizontal="35dp"
+                android:id="@+id/tv_studentname"
+                android:maxLines="1"
+                android:background="@drawable/home_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingHorizontal="15dp"
+                android:textColorHint="@color/white"
+                android:paddingVertical="5dp"
+                android:hint="What are you looking today?"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="-30dp"
+        android:layout_below="@id/ll_abc"
+        android:padding="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/course_RV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

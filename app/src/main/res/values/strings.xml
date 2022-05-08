@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Easy Digi Academy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Wrong_number">We cannot find your number in our record. Please try again with another number or Register as a new user.</string>
+    <string name="Password_sent">Password has been sent to your Registered mobile number. Please check and try to Login again.</string>
+    <string name="otp">Enter the OTP sent on your number.</string>
+    <string name="liveclasses">We are making it more simple for you to attend Live Classes.You can soon attend it.Till then please keep patience.</string>
+
+    <string name="text1">We Collect Informations From You When You Register On Our App Or Website Or Fill Out Any Forms. This Data Are Only Stored For Our Records And Will Not Be Used Or Shared With Anyone Else.</string>
+    <string name="text2">We Implement A Variety Of Security Measures To Maintain The Safety Of Your Personal Information When You Access Your Personal Information.</string>
+    <string name="text3">We Do Not Sell, Trade, Or Otherwise Transfer To Outside Parties Your Personally Identifiable Information. This Does Not Include Trusted Third Parties Who Assist Us In Operating Our Website And App, Conducting Our Business, Or Servicing You, As Long As Those Parties Agree To Keep This Information Confidential.</string>
+    <string name="text4">Ocassionally, At Our Discretion, We May Include Or Offer Third Party Products Or Service On Our Website And App. These Third Party Have Separate And Independent Privacy Policies. We Therfore Have No Responsiblity Or Liablity For The Content And Activities Of These Linked Sites. Nonetheless, We Seek To Protect The Integrity Of Our Site And Welcome Any Feedback About Us.</string>
+    <string name="text5">This Online Privacy Policy Applies Only To Information Collected Through Our Website Or App And Not To Information Collected Offline.</string>
+
+    <string name="point1">To personalize your experience (your information help us to better respond to your individual needs).</string>
+    <string name="point2">To improve our website and mobile application (we continually strive to improve our service offerings based on the information and feedback received from you).</string>
+    <string name="point3">To improve customer service (your information help us to more effectively respond to your customer service requests and support needs).</string>
+    <string name="point4">To process transactions: Your information, whether public or private, will not be sold, exchanged, transfered, or given to any other company for any reason whatsoever, without your consent, other than for the express purpose of delivering the purchased product or service requested by the customer</string>
+    <string name="point5">To send periodic email: The email address you provide for order processing, may be used to send you information and updates pertaining to your order, in addition to receiving occasional company news, updates, related product or service information, etc.</string>
+    <string name="point6"> To administer a contest, promotion, survey or other site feature.</string>
+
+
+    <string name="navigation_dxrawer_open" />
+    <string name="navigation_drawer_close" />
+
+    <dimen name="img">25dp</dimen>
+    <dimen name="margin">15dp</dimen>
+</resources>

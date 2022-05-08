@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_assignment">
+
+    <fragment
+        android:id="@+id/navigation_assignment"
+        android:name="com.webandapp.wadeducational.fragment.assignment.AssignmentFragment"
+        android:label="Assignment"
+        tools:layout="@layout/fragment_assignment" />
+
+    <fragment
+        android:id="@+id/navigation_video"
+        android:name="com.webandapp.wadeducational.fragment.video.VideoFragment"
+        android:label="Video"
+        tools:layout="@layout/fragment_video" />
+
+    <fragment
+        android:id="@+id/navigation_test"
+        android:name="com.webandapp.wadeducational.fragment.test.TestFragment"
+        android:label="Test"
+        tools:layout="@layout/fragment_test" />
+
+
+    <fragment
+        android:id="@+id/navigation_interview"
+        android:name="com.webandapp.wadeducational.fragment.interview.InterviewFragment"
+        android:label="Interview"
+        tools:layout="@layout/fragment_interview" />
+
+
+</navigation>
+

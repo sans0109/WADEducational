@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <LinearLayout
+         android:layout_marginHorizontal="20dp"
+         android:layout_marginVertical="5dp"
+         android:orientation="vertical"
+         android:padding="5dp"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:orientation="horizontal">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:text="Question NO."
+                 android:textStyle="bold"
+                 android:textColor="@color/black"
+                 android:textSize="16dp"
+                 android:visibility="visible"/>
+             <LinearLayout
+                 android:layout_width="30dp"
+                 android:layout_height="30dp"
+                 android:layout_gravity="start"
+                 android:layout_marginLeft="10dp"
+                 android:elevation="5dp"
+                 android:gravity="center">
+
+
+                 <TextView
+                     android:id="@+id/tv_questionnumber"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_gravity="center"
+                     android:gravity="center"
+                     android:text=""
+                     android:textColor="@color/white"
+                     android:textSize="16dp"
+                     android:textStyle="bold"/>
+             </LinearLayout>
+         </LinearLayout>
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="0.5dp"
+             android:layout_marginTop="5dp"
+             android:background="@color/black"/>
+
+         <TextView
+             android:id="@+id/tv_question"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:text=" "
+             android:textColor="@color/black"
+             android:textSize="16dp"
+             android:visibility="visible"/>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="5dp"
+             android:orientation="vertical">
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="0.5dp"
+                 android:layout_marginTop="5dp"
+                 android:background="@color/black"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="Options :"
+                 android:textStyle="bold"
+                 android:textColor="@color/black"
+                 android:textSize="16dp"
+                 android:layout_height="wrap_content"/>
+
+             <LinearLayout
+                 android:layout_marginTop="5dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="10dp"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="A."
+                     android:textColor="@color/black"
+                     android:textStyle="bold"/>
+
+                 <RadioButton
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text=""
+                     android:textColor="@color/black"
+                     android:textStyle="bold"/>
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_marginTop="5dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="10dp"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="B."
+                     android:textColor="@color/black"
+                     android:textStyle="bold"/>
+
+                 <RadioButton
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text=""
+                     android:textColor="@color/black"
+                     android:textStyle="bold"/>
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_marginTop="5dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="10dp"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="C."
+                     android:textColor="@color/black"
+                     android:textStyle="bold"/>
+
+                 <RadioButton
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text=""
+                     android:textColor="@color/black"
+                     android:textStyle="bold"/>
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_marginTop="5dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="10dp"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="D."
+                     android:textColor="@color/black"
+                     android:textStyle="bold"/>
+
+                 <RadioButton
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text=""
+                     android:textColor="@color/black"
+                     android:textStyle="bold"/>
+
+             </LinearLayout>
+
+         </LinearLayout>
+
+
+     </LinearLayout>
+
+
+
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

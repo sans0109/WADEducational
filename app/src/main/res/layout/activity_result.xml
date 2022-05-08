@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.webandapp.wadeducational.ui.CourseTest.ResultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Results: "
+        android:textSize="18dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:id="@+id/tvres"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btnRestart"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="119dp"
+        android:background="#01579B"
+        android:text="Restart"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvres2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvres"
+        android:layout_marginTop="31dp"
+        android:text="Large Text"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvres3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvres2"
+        android:layout_marginTop="33dp"
+        android:text="Large Text"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+</RelativeLayout>
